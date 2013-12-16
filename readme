@@ -1,0 +1,45 @@
+--------------------------------------------------------
+README: 201101186, 201101101
+--------------------------------------------------------
+
+Part1:
+To classify images under croppedYale Dataset.
+Running
+~~~~~~~
+>> part1
+
+Part1_verif:
+To verify a given image from croppedYale Dataset.
+Running
+~~~~~~~
+>> part1_verif Data/yaleB04/yaleB04_P00A+020E-10.pgm 1
+
+Part2:
+To classify images under CMU-PIE Dataset.
+Running
+~~~~~~~
+>> part2
+
+Part2_verif:
+To verify a given image under CMU-PIE Dataset.
+Running
+~~~~~~~
+>> part2_verif 622.png 32
+
+Part3_yale:
+To use SVM instead of K-NN for classification, based on croppedYale Dataset.
+Running
+~~~~~~~
+>> part3_yale
+
+Part3_cmu:
+To use SVM instead of K-NN for classification, based on CMU-PIE Dataset.
+Running
+~~~~~~~
+>> part3_cmu
+
+Part4:
+To reconstruct an image of a given image, based on the croppedYale Dataset.
+Running
+~~~~~~~
+>> part4
